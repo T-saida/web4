@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5 - JavaScript Basics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Assignment 5: JavaScript Basics</h1>
+    <p>Student: Saida Tleugeldi</p>
+    <p>Group: SE-2522</p>
+
+    <hr>
+
+    <section>
+        <h2>Part 2. DOM Manipulation</h2>
+        
+        <div class="task-block">
+            <h3>Task 2: Changing Content</h3>
+            <p id="text-p">Original paragraph text.</p>
+            <button id="change-text-btn">Change Text</button>
+        </div>
+
+        <div class="task-block">
+            <h3>Task 3: Changing Styles</h3>
+            <div id="style-box" class="box">Styled Box Container</div>
+            <button id="change-bg-btn">Change Background</button>
+            <button id="change-font-btn">Change Font Size</button>
+        </div>
+
+        <div class="task-block">
+            <h3>Task 4: Creating & Removing Elements</h3>
+            <ul id="item-list">
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
+            <button id="add-item-btn">Add Item</button>
+            <button id="remove-item-btn">Remove Item</button>
+        </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Part 3. Events</h2>
+        
+        <div class="task-block">
+            <h3>Task 5: Mouse Events</h3>
+            <div id="mouse-box" class="box">Hover over me!</div>
+        </div>
+
+        <div class="task-block">
+            <h3>Task 6: Keyboard Events</h3>
+            <input type="text" id="keyboard-input" placeholder="Type something...">
+            <p>Live output: <span id="output-text"></span></p>
+        </div>
+
+        <div class="task-block">
+            <h3>Task 7: Form Validation</h3>
+            <form id="signup-form">
+                <div>
+                    <label>Name: <input type="text" id="form-name"></label>
+                </div>
+                <div>
+                    <label>Email: <input type="text" id="form-email"></label>
+                </div>
+                <div>
+                    <label>Password: <input type="password" id="form-password"></label>
+                </div>
+                <button type="submit">Register</button>
+                <p id="error-message" class="error"></p>
+            </form>
+        </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Part 4. Mini Project: To-Do List</h2>
+        <div class="task-block">
+            <input type="text" id="todo-input" placeholder="Enter a new task...">
+            <button id="add-task-btn">Add Task</button>
+            <ul id="todo-list"></ul>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
